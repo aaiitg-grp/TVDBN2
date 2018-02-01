@@ -1,0 +1,11 @@
+{ 
+   "input.data.filename": "DmLcJd.tsv",
+   "kLambda": 0.9,
+   "kBandwidth": 4356,
+   "kConvThreshold": 0.1,
+   "kNumTimeSeries": 1,
+   "kSeed": 1234,
+   "kMaxFanin": 10,
+   "allow.self.loop": true,
+   "Comments": "kLambda is assigned 0.9 because a value of 0.01 causes the predicted network to have a density as high as 0.96. kBandwidth is assigned 4356 because exp(-(T-1)^2/4356) = exp(-1) where T = number of time points"
+}

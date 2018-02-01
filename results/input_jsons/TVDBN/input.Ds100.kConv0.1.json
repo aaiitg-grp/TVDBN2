@@ -1,0 +1,9 @@
+{ 
+   "input.data.filename": "InSilicoSize100-Yeast1-nonoise-trajectories.tsv",
+   "kLambda": 0.01,
+   "kBandwidth": 400,
+   "kConvThreshold": 0.1,
+   "kNumTimeSeries": 46,
+   "kSeed": 1234,
+   "Comments": "kLambda is assigned 0.01 because TVDBN does so for Yeast real data. kBandwidth is assigned 400 because exp(-(T-1)^2/400) = exp(-1)"
+}

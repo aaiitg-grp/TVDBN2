@@ -1,0 +1,11 @@
+{ 
+   "input.data.filename": "EcSos_expt_1_2.tsv",
+   "kLambda": 0.9,
+   "kBandwidth": 2401,
+   "kConvThreshold": 0.001,
+   "kNumTimeSeries": 2,
+   "kSeed": 1234,
+   "init.A.0": "zero",
+   "init.A.t": "zero",
+   "Comments": "kLambda is assigned 0.9 because the true net has a density of (9 / 64) = 0.141 i.e. around 0.85 fraction of the net is empty. kBandwidth is assigned 2401 because exp(-(T-1)^2/2401) = exp(-1) where T = number of time points."
+}
